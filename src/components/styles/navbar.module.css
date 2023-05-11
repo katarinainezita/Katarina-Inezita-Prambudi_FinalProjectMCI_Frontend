@@ -1,0 +1,46 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inline-flex
+}
+
+
+.header{
+    width: 100%;
+    background-color: #fffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+}
+
+.topmenu{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.topmenu li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+
+.topmenu li a:hover{
+    color: #40BFFF;
+}
+
+/* .h1{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+} */
+
+.cart{
+    padding: 20px 35px;
+    cursor: pointer;
+}
